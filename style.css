@@ -1,0 +1,784 @@
+/* GENERAL */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body h1 {
+    font-family: Khula;
+}
+
+body
+{
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 1200px;
+}
+
+/* page 1 HEADER */
+
+
+header
+{
+    height: 700px;
+    background-image: linear-gradient(to left top, rgba(7, 44, 252, 0.829), rgba(209, 102, 241, 0.795)), url(Images/header-fond.png), url(Images/Combined-Shape.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 120px;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 35px;
+    margin-right: 300px;
+}
+
+header nav ul li
+{
+    display: inline-block;
+}
+
+header nav ul li a
+{
+    text-transform: none;
+    font-size: 18px;
+    font-weight: light;
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+#header-title h1 {
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: 60px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+#header-title p {
+    color: white;
+    font-size: 35px;
+    margin: auto;
+    width: 51%;
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+/* page 2 NOUS SOMMES */
+
+#nous-sommes {
+    height: 1000px;
+}
+
+#nous-sommes .wrapper
+{
+    color: black;
+    font-size: 40px;
+    margin: auto;
+    width: 40%;
+    padding: 80px;
+    text-align: left;
+    float: left;
+    padding-top: 220px;
+    line-height: 1.6;
+}
+
+#nous-sommes .wrapper .paragraphe
+{
+    color: black;
+    font-size: 30px;
+    line-height: 50px;
+    padding-bottom: 40px;
+}
+
+.en-savoir-plus {
+    background:linear-gradient(to right, #CA5EFF 5%, #004FDE 100%);
+    border-radius:33px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding:16px 31px;
+    text-decoration:none;
+    border: none;
+    font-size: 19px;
+}
+
+#nous-sommes .metrics {
+    color: black;
+    background-color: white;
+    width: 40%;
+    float: left;
+    margin-top: 180px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    background-image: url(Images/Combined-Shape.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 99% 2%;
+    background-position-x: 1;
+}
+
+.metrics1 {
+    background-color: white;
+    width: 220px;
+    height: 210px;
+    margin: 10px 10px 35px 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(235, 235, 235);
+    padding-top: 25px;
+}
+
+.metrics2 {
+    background-color: white;
+    width: 220px;
+    height: 210px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(235, 235, 235);
+    padding-top: 25px;
+}
+
+.metrics3 {
+    background-color: white;
+    width: 220px;
+    height: 210px;
+    margin: 10px 10px 35px 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(235, 235, 235);
+    padding-top: 25px;
+}
+
+.metrics4 {
+    background-color: white;
+    width: 220px;
+    height: 210px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(235, 235, 235);
+    padding-top: 25px;
+}
+
+.metrics-left {
+    float: left;
+}
+
+.metrics-right {
+    float: right;
+    margin-top: 50px;
+}
+
+.metrics3 .p-10ans {
+    font-size: 35px;
+}
+
+.round-metrics {
+    height: 70px;
+    width: 120px;
+    background-color: white;
+    border-radius: 150px;
+    padding-top: 50px;
+    margin-left: 40px;
+    font-size: 40px;
+    line-height: 28px;
+    font-family: khula;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to bottom right, #CA5EFF 5%, #004FDE 100%) border-box;
+    border-radius: 50em;
+    border: 10px solid transparent;
+}
+
+.title-metrics {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+/* page 3 NOS SERVICES */
+
+#nos-services {
+    height: 1200px;
+}
+
+#nos-services h2 {
+    font-family: khula;
+    font-size: 35px;
+}
+
+ #nos-services {
+    background-image:url(Images/Combined-Shape.png), linear-gradient(to right bottom, #CA5EFF 5%, #004FDE 100%);
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    background-position: 1% 15%, center;
+    background-size: inherit, cover;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+
+#nos-services h1 {
+    color: white;
+    font-size: 60px;
+    margin: auto;
+    width: 40%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#nos-services .subtitle {
+    background-color: none;
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+
+.service-container1 {
+    width: 90%;
+    margin: auto;
+}
+
+.service-container2 {
+    width: 90%;
+    margin: auto;
+}
+
+.card-container1 {
+    background-color: white;
+    width: 24%;
+    height: 450px;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(133, 133, 133);
+}
+
+.card-container1 p {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.card-container2 p {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.card-container3 p {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.card-container4 p {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.card-container5 p {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.card-container3 h2 {
+    line-height: 40px;
+}
+
+.card-image1, .card-image2, .card-image3 {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.card-image4, .card-image5 {
+    float: left;
+}
+
+
+.card-container2 {
+    background-color: white;
+    width: 24%;
+    height: 450px;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(133, 133, 133);
+}
+
+.card-container3 {
+    background-color: white;
+    width: 24%;
+    height: 450px;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(133, 133, 133);
+}
+
+.card-container4 {
+    background-color: white;
+    width: 40%;
+    height: 250px;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.card-container5 {
+    background-color: white;
+    width: 40%;
+    height: 250px;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.button-decouvrir {
+    padding-top: 10px;
+}
+
+.button-service {
+    height: 48px;
+    width: 48px;
+    background-color:#ffffff;
+	border-radius:42px;
+	border:1px solid #b8b8b8;
+	display:inline-block;
+	cursor:pointer;
+	color:#7e267e;
+	font-family:Arial;
+	font-size:28px;
+	padding:4px 18px;
+	text-decoration:none;
+	text-shadow:0px 0px 50px #2f6627;
+    margin-left: 20px;
+}
+
+
+
+
+
+/* page 4 NOS PARTENAIRES */
+
+#nos-partenaires {
+    height: 600px;
+    background-image: url(Images/logo.png), url(Images/Combined-Shape.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center, 95% 35%;
+}
+
+#nos-partenaires h1 {
+    color: black;
+    font-size: 60px;
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    padding-top: 90px;
+    text-align: center;
+}
+
+
+/* page 5 LES AVIS */
+
+#les-avis {
+    height: 900px;
+    background-image: url(Images/Combined-Shape.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: left 0.5em top 225px;
+    background-color: #F7F7F7;    
+    background-size: inherit;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+}
+
+#les-avis h1 {
+    color: black;
+    font-size: 60px;
+    margin: auto;
+    margin-bottom: -30px;
+    width: 38%;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.carte-avis {
+    background-color: none;
+    margin: auto;
+    height: 650px;
+}
+
+.carte-avis1 {
+    width: 25%;
+    height: 450px;
+    background-image: linear-gradient(to right bottom, #CA5EFF 5%, #004FDE 100%);
+    float: left;
+    padding: 20px 20px 20px 20px;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 30px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    color: white;
+}
+
+.content-container-carte-avis1 {
+    padding: 25px 25px 25px 25px;
+}
+
+.carte-avis2 {
+    width: 25%;
+    height: 450px;
+    background-image: linear-gradient(to right bottom, #CA5EFF 5%, #004FDE 100%);
+    float: left;
+    padding: 20px 20px 20px 20px;
+    margin-top: 100px;
+    margin-right: 50px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    color: white;
+}
+
+.content-container-carte-avis2 {
+    padding: 25px 25px 25px 25px;
+}
+
+
+.carte-avis3 {
+    width: 25%;
+    height: 450px;
+    background-image: linear-gradient(to right bottom, #CA5EFF 5%, #004FDE 100%);
+    float: left;
+    padding: 20px 20px 20px 20px;
+    margin-top: 100px;
+    margin-right: 50px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    color: white;
+}
+
+.content-container-carte-avis3 {
+    padding: 25px 25px 25px 25px;
+}
+
+
+
+/* page 6 PRENDRE CONTACT */
+
+#prendre-contact {
+    height: 1300px;
+}
+
+#prendre-contact h1 {
+    color: black;
+    font-size: 60px;
+    margin: auto;
+    width: 70%;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.container-contact {
+    margin:0 auto;
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+.contact-images {
+    width: 50%;
+    height: 200px;
+    background: white;
+    float: left;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contact-images h3 {
+    font-family: khula;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container-contact .container-text-contact p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background: white;
+    text-align: center;
+}
+
+.googlemaps {
+    border-radius: 8px;
+    width: 43%; 
+    height:450px; 
+    margin:0 auto;
+}
+
+.googlemaps::before {
+    content: "";
+    background: linear-gradient(to right, #CA5EFF 5%, #004FDE 100%);
+    position: absolute;
+    height: 440px;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+    z-index: -1;
+    border-radius: 5px;
+  }
+
+
+/* page 7 CONTACTEZ-NOUS */
+
+
+#contactez-nous {
+    height: 900px;
+    background-color: #e7e7e7;
+    background-image: url(Images/Phone-it-experience.png), url(Images/Combined-Shape.png);
+    background-size:contain, initial;
+    background-position: -350px 10px, right 2em top 285px;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment:scroll;
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 120px;
+}
+
+#contactez-nous h1 {
+    display: block;
+    color: black;
+    font-size: 50px;
+    margin: auto;
+    width: 45%;
+    padding-top: 90px;
+    margin-right: 50px;
+    text-align: center;
+    float: right;
+}
+
+#contactez-nous p {
+    color: black;
+    font-size: 27px;
+    margin-right: 45px;
+    width: 45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    float: right;
+}
+
+#contactez-nous .form1 {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    margin-right: 50px;
+    width: 45%;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    float: right;
+    box-shadow: 0 0 10px rgb(158, 158, 158);
+
+}
+
+.fcf-form-control1 {
+    border: solid 2px rgb(223, 223, 223);
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.fcf-form-control2 {
+    border: solid 2px rgb(223, 223, 223);
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 150px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.envoyer-contact {
+    background:linear-gradient(to right, #CA5EFF 5%, #004FDE 100%);
+    border-radius:33px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:15px;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding:16px 31px;
+    text-decoration:none;
+    border: none;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.clear { clear:both; }
+
+
+
+/* page 8 FOOTER */
+
+#footer {
+    height: 200px;
+}
+
+.menu-footer {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    height: 250px;
+}
+
+.menu-footer1 {
+    width: 25%;
+    height: 200px;
+    background: white;
+    float: left;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.menu-footer2 {
+    width: 25%;
+    height: 200px;
+    background: white;
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    line-height: 22px;
+}
+
+.menu-footer2 h3 {
+    font-family: khula;
+    font-size: 20px;
+}
+
+.menu-footer3 {
+    width: 25%;
+    height: 200px;
+    background: white;
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.menu-footer3 h3 {
+    font-family: khula;
+    font-size: 20px;
+}
+
+.menu-footer3 form .mail-input {
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    height: 40px;
+    width: 240px;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: rgb(196, 196, 196);
+    font-family: Montserrat;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.button-footer {
+    background:linear-gradient(to right, #CA5EFF 5%, #004FDE 100%);
+    border-radius:33px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:15px;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding:16px 31px;
+    text-decoration:none;
+    border: none;
+    margin-top: 20px;
+    width: 200px;
+}
+
+
+.solid {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 2px solid rgb(219, 219, 219);
+    width: 90%;
+    margin-left: 70px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.copyright-container1 {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+}
+
+.copyright1 {
+    width: 45%;
+    height: 100px;
+    padding-top: 15px;
+    margin-left: 5%;
+    background: white;
+    color: #8b8b8b;
+    float: left;
+}
+
+.mentions-legales {
+    text-align: right;
+    height: 100px;
+    padding-top: 15px;
+    margin-left: 15%;
+    margin-right: 5%;
+    background: white;
+    color: #8b8b8b;
+}
